@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+   background-image: linear-gradient(to right top, #226b80, #35b0ab);
+   color: #FCF6F5FF;
+   font-family: monospace;
+   overflow-y: hidden;
+   font-size: inherit;
+}
+textarea{
+    resize: none;
+    border: 2px solid #11998e;
+    box-shadow: .5px 2px 20px 2px rgba(0, 0, 0, 0.616);
+    font-family: sans-serif;
+
+    height: 250px;
+    width: 100%;
+    font-size: 22px;
+}
+h1 {
+    font-family: "Caveat";
+    font-size: 42px;
+}
+h2 {
+    font-family: "Open Sans";
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 10%;
+}
+button {
+    margin-top: 2rem;
+    border: none;
+    background-image: linear-gradient(to right bottom, #082d64, #005a93);    color: white;
+    padding: .4rem .7rem;
+    font-family: serif;
+    font-size: 22px;
+    border-radius: 7px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    h1 {font-size: 30px;}
+    textarea {width: 60%;margin-left: 20%;}
+    button {margin-left: 40%;}
+}
+
